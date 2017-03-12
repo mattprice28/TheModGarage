@@ -5,7 +5,7 @@
 			<title>The Mod Garage</title>
 			<h1>The Mod Garage</h1>
 		</head>
-		<div>
+		<div class = "window">
 			<body>
 				<script src="js/three.js"></script>
 				<script>
