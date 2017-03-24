@@ -11,9 +11,7 @@ h1{
 	border-width: medium;
 	margin-left: 15%;
 	margin-top: 5%;
-	opacity: 70%;
-	background-color: none!important;
-
+	background-color: black;
 }
 
 body{
@@ -21,11 +19,29 @@ body{
 	height: 100%;
 	width: 100%;
 	background-size: cover;
+	text-align: center;
 }
 
 h2{
 	text-align: center;
 	color: white;
-	font-size: 5vw;
-	padding-top: 15%
+	font-size: 2vw;
+	padding-top: 5%
+}
+
+ul{
+	color: white;
+	font-size: 1vw;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: inline;
+	border-left: 1px solid;
+}
+
+li{
+	margin-left: 0;
+	border-left: none;
+	list-style: none;
+	display: inline;
 }

@@ -7,7 +7,16 @@
 		</head>
 		<div class = "window">
 			<body>
-				
+				<script src="js/three.js"></script>
+				<script>
+				</script>
+				<ul class = "parts">
+					<li>Front Bumper</li>
+					<li>Bonnet</li>
+					<li>Side Skirts</li>
+					<li>Rear Bumper</li>
+					<li>Wheels</li>
+				</ul>
 			</body>
 		</div>
 	</hmtl>
