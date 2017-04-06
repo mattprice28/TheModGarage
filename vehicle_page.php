@@ -89,13 +89,28 @@ controls.dampingFactor = 0.25;
 controls.enableZoom = false;
 }
 				</script>
+				<img src="css/Toyota-Supra.jpg">
+			<div class = "footer">
 				<ul class = "parts">
-					<li>Front Bumper</li>
-					<li>Bonnet</li>
-					<li>Side Skirts</li>
-					<li>Rear Bumper</li>
-					<li>Wheels</li>
+					<li class = "top_list">Front Bumper</li>
+					<li class = "top_list">Bonnet</li>
+					<li class = "top_list">Side Skirts</li>
+					<li class = "top_list">Rear Bumper</li>
+					<li class = "top_list">Wheels</li>
 				</ul>
+				<br>
+				<ul class ="mods">
+					<li>Front Bumper 1<li>
+					<li>Front Bumper 2<li>
+					<li>Bonnet 1<li>
+					<li>Bonnet 2<li>
+					<li>Side Skirts 1<li>
+					<li>Side Skirts 2<li>
+					<li>Rear Bumper 1<li>
+					<li>Rear Bumper 2<li>
+					<li>Wheels 1<li>
+					<li>Wheels 2<li>
+			</div>
 			</body>
 		</div>
 	</hmtl>
