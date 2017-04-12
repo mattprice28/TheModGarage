@@ -4,13 +4,11 @@ h1{
 }
 
 .window{
-	position: fixed;
-	height: 70%;
-	width: 70%;
+	height: 80%;
+	width: 80%;
 	border-style: solid;
 	border-width: medium;
-	margin-left: 15%;
-	margin-top: 5%;
+	margin-left: 10%;
 	background-color: black;
 	overflow: hidden;
 }
@@ -31,7 +29,7 @@ h2{
 }
 
 .footer{
-	position: absolute;
+	position: relative;
 	bottom: 0;
 }
 
@@ -81,5 +79,26 @@ li{
 img{
 	display: block;
 	margin: auto;
-	width: 60%;
+	width: 55%;
+}
+
+.thumbnail{
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 5px;
+	width: 100px;
+	height: 80px;
+}
+
+p{
+	color: white;
+	font-size: 16pt;
+}
+
+.backButton{
+	border-color: white;
+	background-color: black;
+	color: white;
+	font-size: 20px;
+
 }

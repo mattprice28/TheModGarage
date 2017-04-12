@@ -11,19 +11,17 @@
     <script src="js/OBJLoader.js"></script>
     <script src="js/MTLLoader.js"></script>
 
-    <style>
-        body {
-            overflow: hidden;
-            margin: 0;
-            padding: 0;
-            background: hsl(0, 0%, 10%);
-        }
-    </style>
 			<title>The Mod Garage</title>
 			<h1>The Mod Garage</h1>
 		</head>
 		<div class = "window">
 			<body>
+			<button class="backButton" onclick="goBack()"Back</button>
+			<script>
+			function goBack() {
+				window.history.back();
+			}
+			</script>
 				<script src="js/three.js"></script>
 				<script>
 				// The detector will show a warning if the current browser does not support WebGL.
@@ -100,16 +98,26 @@ controls.enableZoom = false;
 				</ul>
 				<br>
 				<ul class ="mods">
-					<li>Front Bumper 1<li>
-					<li>Front Bumper 2<li>
-					<li>Bonnet 1<li>
-					<li>Bonnet 2<li>
-					<li>Side Skirts 1<li>
-					<li>Side Skirts 2<li>
-					<li>Rear Bumper 1<li>
-					<li>Rear Bumper 2<li>
-					<li>Wheels 1<li>
-					<li>Wheels 2<li>
+					<li><a href="parts/frontbumper1.jpg">
+					<img class="thumbnail" src="parts/frontbumper1.jpg" alt="Front Bumper 1"></a><li>
+					<li><a href="parts/frontbumper2.jpg">
+					<img class="thumbnail" src="parts/frontbumper2.jpg" alt="Front Bumper 2"></a><li>
+					<li><a href="parts/bonnet1.jpg">
+					<img class="thumbnail" src="parts/bonnet1.jpg" alt="Bonnet 1"></a><li>
+					<li><a href="parts/bonnet2.jpg">
+					<img class="thumbnail" src="parts/bonnet2.jpg" alt="Bonnet 2"></a><li>
+					<li><a href="parts/sideskirt1.jpg">
+					<img class="thumbnail" src="parts/sideskirt1.jpg" alt="Side Skirt 1"></a><li>
+					<li><a href="parts/sideskirt2.jpg">
+					<img class="thumbnail" src="parts/sideskirt2.jpg" alt="Side Skirt 2"></a><li>
+					<li><a href="parts/rearbumper1.jpg">
+					<img class="thumbnail" src="parts/rearbumper1.jpg" alt="Rear Bumper 1"></a><li>
+					<li><a href="parts/rearbumper2.jpg">
+					<img class="thumbnail" src="parts/rearbumper2.jpg" alt="Rear Bumper 2"></a><li>
+					<li><a href="parts/wheels1.jpg">
+					<img class="thumbnail" src="parts/wheels1.jpg" alt="Wheels 1"></a><li>
+					<li><a href="parts/wheels2.jpg">
+					<img class="thumbnail" src="parts/wheels2.jpg" alt="Wheels 2"></a><li>
 			</div>
 			</body>
 		</div>

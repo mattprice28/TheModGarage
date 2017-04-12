@@ -7,24 +7,33 @@
 		</head>
 		<div class = "window">
 			<body>
-				<form id ="vehicle" action="vehicle_page.php">
+				<form id ="vehicle" action="vehicle_page.php" method="get">
 					<h2>Choose your Vehicle<h2><br>
 					<input list="Make">
 					<datalist id ="Make">
 						<option value="Toyota">
 						<option value="Other">
+						<p id="selectMake"></p>
 					</datalist><br>
 					<input list="Model">
 					<datalist id ="Model">
 						<option value="Supra">
 						<option value="Other">
+						<p id="selectModel"></p>
 					</datalist>
 					<br>
-					<input type="button" onclick="selectVehicle()" value="Submit">	
+					<input type="submit" onclick="validate()" value="Next">	
 				</form>
 				<script>
-				function selectVehicle() {
-					document.getElementbyID("vehicle").submit();
+				function validate() {
+					var make = document.getElementbyID("Make");
+					var model = document.getElementbyID("Model")
+					if(make.selectedIndex==0){
+						document.getElementbyID("selectMake").innerHTML = "Choose a make"
+					}
+					else if(make.selectedIndex!=0 && model.selectedIndex==0){
+						document.getElementbyID("selectModel").innerHTML = "Choose a model"
+					}
 				}
 				</script>
 			</body>
