@@ -13,15 +13,15 @@
 
 			<title>The Mod Garage</title>
 			<h1>The Mod Garage</h1>
-		</head>
-		<div class = "window">
-			<body>
 			<button class="backButton" onclick="goBack()"Back</button>
 			<script>
 			function goBack() {
 				window.history.back();
 			}
 			</script>
+		</head>
+		<div class = "window">
+			<body>
 				<script src="js/three.js"></script>
 				<script>
 				// The detector will show a warning if the current browser does not support WebGL.
