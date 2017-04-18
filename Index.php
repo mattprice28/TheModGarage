@@ -22,6 +22,13 @@
 						<p id="selectModel"></p>
 					</datalist>
 					<br>
+					<input list="Version">
+					<datalist id ="Version">
+						<option value="MK IV">
+						<option value="Other">
+						<p id="selectVersion"></p>
+					</datalist>
+					<br>
 					<input type="submit" onclick="validate()" value="Next">	
 				</form>
 				<script>
