@@ -10,20 +10,16 @@
     <script src="js/OrbitControls.js"></script>
     <script src="js/OBJLoader.js"></script>
     <script src="js/MTLLoader.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 			<title>The Mod Garage</title>
 			<h1>The Mod Garage</h1>
-			<button class="backButton" onclick="goBack()"Back</button>
-			<script>
-			function goBack() {
-				window.history.back();
-			}
-			</script>
+			<a href= "index.php" class ="myButton">Return</a>
+			<a href= "vehicle_page.php" class ="myButton">Reset</a>
 		</head>
 		<div class = "window">
 			<body>
-				<script src="js/three.js"></script>
-				<script>
+	<script>
 				// The detector will show a warning if the current browser does not support WebGL.
 if (!Detector.webgl) {
     Detector.addGetWebGLMessage();
@@ -98,27 +94,35 @@ controls.enableZoom = false;
 				</ul>
 				<br>
 				<ul class ="mods">
-					<li><a href="parts/frontbumper1.jpg">
-					<img class="thumbnail" src="parts/frontbumper1.jpg" alt="Front Bumper 1"></a><li>
-					<li><a href="parts/frontbumper2.jpg">
-					<img class="thumbnail" src="parts/frontbumper2.jpg" alt="Front Bumper 2"></a><li>
-					<li><a href="parts/bonnet1.jpg">
-					<img class="thumbnail" src="parts/bonnet1.jpg" alt="Bonnet 1"></a><li>
-					<li><a href="parts/bonnet2.jpg">
-					<img class="thumbnail" src="parts/bonnet2.jpg" alt="Bonnet 2"></a><li>
-					<li><a href="parts/sideskirt1.jpg">
-					<img class="thumbnail" src="parts/sideskirt1.jpg" alt="Side Skirt 1"></a><li>
-					<li><a href="parts/sideskirt2.jpg">
-					<img class="thumbnail" src="parts/sideskirt2.jpg" alt="Side Skirt 2"></a><li>
-					<li><a href="parts/rearbumper1.jpg">
-					<img class="thumbnail" src="parts/rearbumper1.jpg" alt="Rear Bumper 1"></a><li>
-					<li><a href="parts/rearbumper2.jpg">
-					<img class="thumbnail" src="parts/rearbumper2.jpg" alt="Rear Bumper 2"></a><li>
-					<li><a href="parts/wheels1.jpg">
-					<img class="thumbnail" src="parts/wheels1.jpg" alt="Wheels 1"></a><li>
-					<li><a href="parts/wheels2.jpg">
-					<img class="thumbnail" src="parts/wheels2.jpg" alt="Wheels 2"></a><li>
+					<li>
+					<img class="thumbnail" src="parts/frontbumper1.jpg" alt="Front Bumper 1">$214.99</a><li>
+					<li>
+					<img class="thumbnail" src="parts/frontbumper2.jpg" alt="Front Bumper 2">$164.00</a><li>
+					<li>
+					<img class="thumbnail" src="parts/bonnet1.jpg" alt="Bonnet 1"></a>$833.00<li>
+					<li>
+					<img class="thumbnail" src="parts/bonnet2.jpg" alt="Bonnet 2"></a>$833.00<li>
+					<li>
+					<img class="thumbnail" src="parts/sideskirt1.jpg" alt="Side Skirt 1"></a>$154.00<li>
+					<li>
+					<img class="thumbnail" src="parts/sideskirt2.jpg" alt="Side Skirt 2">$557.99</a><li>
+					<li>
+					<img class="thumbnail" src="parts/rearbumper1.jpg" alt="Rear Bumper 1">$657.99</a><li>
+					<li>
+					<img class="thumbnail" src="parts/rearbumper2.jpg" alt="Rear Bumper 2">$274.99</a><li>
+					<li>
+					<img class="thumbnail" src="parts/wheels1.jpg" alt="Wheels 1">$700.00</a><li>
+					<li>
+					<img class="thumbnail" src="parts/wheels2.jpg" alt="Wheels 2">$645.00</a><li>
+					
 			</div>
 			</body>
 		</div>
+		<script>
+		$(function () {
+			$("img").click(function() {
+				$(this).css('border' , "solid 2px red");
+			});
+		});
+		</script>
 	</hmtl>
