@@ -14,8 +14,8 @@
 
 			<title>The Mod Garage</title>
 			<h1>The Mod Garage</h1>
-			<a href= "index.php" class ="myButton">Return</a>
-			<a href= "vehicle_page.php" class ="myButton">Reset</a>
+			<a href= "index.php" class ="myButton" onclick = "return confirm('Are you sure, all progress will be lost?')">Return</a>
+			<a href= "vehicle_page.php" class ="myButton" onclick ="return confirm('Are you sure you want to reset all parts?')">Reset</a>
 		</head>
 		<div class = "window">
 			<body>

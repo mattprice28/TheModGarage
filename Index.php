@@ -9,9 +9,11 @@
 			<body>
 			<div class = "openingMessage">
 			<span class = "closebtn" onclick = "this.parentElement.style.display='none';">&times;</span>
-			<img class = "logo" src = "logo.jpg" alt = "Logo">
+			<br><br><br>
+			<img class = "logo" src = "css/logo.jpg" alt = "Logo"><br><br><br>
 			<p>Welcome to The Mod Garage<br><br>
-			The Mod Garage is designed to introduce all user's to the world of modification.<br> Simply select a vehicle from the dropwdown list and you are on your way!</p>
+			The Mod Garage is designed to introduce all user's to the world of modification.<br> Simply select a vehicle from the dropwdown list and you are on your way!<br><br>
+			Close this window to continue!</p>
 			</div>
 				<form id ="vehicle" action="vehicle_page.php" method="get">
 					<h2>Choose your Vehicle<h2><br>
